@@ -1,0 +1,92 @@
+{
+ "val": [
+  {
+   "name": "PointNet float32 (BN fusionnee)",
+   "val_mIoU": 0.611366868019104,
+   "val_OA": 0.8312156200408936,
+   "size_MB": 1.88741,
+   "lat_ms": 68.76465500045015,
+   "params": 470929,
+   "nonzero": 470929,
+   "note": ""
+  },
+  {
+   "name": "PointNet pruning 50%",
+   "val_mIoU": 0.5850731134414673,
+   "val_OA": 0.8249340057373047,
+   "size_MB": 1.887346,
+   "lat_ms": 67.01799900019978,
+   "params": 470929,
+   "nonzero": 236273,
+   "note": "zeros non exploites par CPU dense : pas de gain attendu en taille/latence"
+  },
+  {
+   "name": "PointNet pruning 70%",
+   "val_mIoU": 0.5154604911804199,
+   "val_OA": 0.7896457314491272,
+   "size_MB": 1.887346,
+   "lat_ms": 68.82475600014004,
+   "params": 470929,
+   "nonzero": 142411,
+   "note": "zeros non exploites par CPU dense : pas de gain attendu en taille/latence"
+  },
+  {
+   "name": "PointNet pruning 90%",
+   "val_mIoU": 0.347609281539917,
+   "val_OA": 0.6871953010559082,
+   "size_MB": 1.887346,
+   "lat_ms": 67.66258799962088,
+   "params": 470929,
+   "nonzero": 48548,
+   "note": "zeros non exploites par CPU dense : pas de gain attendu en taille/latence"
+  },
+  {
+   "name": "PointNet INT8 dynamique",
+   "val_mIoU": 0.6020704507827759,
+   "val_OA": 0.8226526379585266,
+   "size_MB": 0.48347,
+   "lat_ms": 60.74171950058371,
+   "params": 0,
+   "nonzero": 0,
+   "note": ""
+  },
+  {
+   "name": "PointNet pruning 50% + INT8",
+   "val_mIoU": 0.5756094455718994,
+   "val_OA": 0.8176287412643433,
+   "size_MB": 0.48347,
+   "lat_ms": 62.55797899939353,
+   "params": 0,
+   "nonzero": 0,
+   "note": ""
+  },
+  {
+   "name": "DGCNN Teacher float32",
+   "val_mIoU": 0.6929436922073364,
+   "val_OA": 0.878608763217926,
+   "size_MB": 2.27562,
+   "lat_ms": 433.3958540000822,
+   "params": 562833,
+   "nonzero": 562833,
+   "note": ""
+  }
+ ],
+ "test": {
+  "fused": {
+   "OA": 0.8250958323478699,
+   "mIoU": 0.6033832430839539
+  },
+  "pruned50": {
+   "OA": 0.8164324760437012,
+   "mIoU": 0.5796492695808411
+  },
+  "int8": {
+   "OA": 0.8164957761764526,
+   "mIoU": 0.5957608222961426
+  },
+  "pruned50+int8": {
+   "OA": 0.8103153705596924,
+   "mIoU": 0.5735050439834595
+  }
+ }
+}

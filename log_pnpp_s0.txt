@@ -1,0 +1,60 @@
+PointNet++ SSG student : 546,193 params, 2.27 Mo, latence CPU 1 thread (4096 pts, mediane de 50) = 42.7 ms
+references mesurees : Teacher DGCNN 433.4 ms | PointNet elague 1024/256 = 69.0 ms (51.1 INT8) | 128/64 = 5.3 ms
+  [base s0] ep1/40 loss=1.2929 val mIoU=0.4041 best=0.4041@1 [6s]
+  [base s0] ep5/40 loss=0.5902 val mIoU=0.4465 best=0.4709@4 [29s]
+  [base s0] ep10/40 loss=0.4970 val mIoU=0.5041 best=0.5192@9 [58s]
+  [base s0] ep15/40 loss=0.4467 val mIoU=0.5165 best=0.5531@14 [88s]
+  [base s0] ep20/40 loss=0.3936 val mIoU=0.6111 best=0.6111@20 [117s]
+  [base s0] ep25/40 loss=0.3614 val mIoU=0.6094 best=0.6111@20 [147s]
+  [base s0] ep30/40 loss=0.3242 val mIoU=0.6367 best=0.6367@30 [176s]
+  [base s0] ep35/40 loss=0.2934 val mIoU=0.6483 best=0.6524@34 [206s]
+  [base s0] ep40/40 loss=0.2881 val mIoU=0.6488 best=0.6524@34 [236s]
+==> base seed0: val=0.6524 test=0.6589 (ep 34)
+  [logit s0] ep1/40 loss=6.8084 val mIoU=0.3837 best=0.3837@1 [26s]
+  [logit s0] ep5/40 loss=1.4602 val mIoU=0.4745 best=0.4745@5 [130s]
+  [logit s0] ep10/40 loss=1.1713 val mIoU=0.5227 best=0.5271@8 [259s]
+  [logit s0] ep15/40 loss=1.0587 val mIoU=0.5717 best=0.5717@15 [389s]
+  [logit s0] ep20/40 loss=0.9337 val mIoU=0.6029 best=0.6029@20 [518s]
+  [logit s0] ep25/40 loss=0.8589 val mIoU=0.5992 best=0.6062@23 [648s]
+  [logit s0] ep30/40 loss=0.7824 val mIoU=0.6329 best=0.6329@30 [777s]
+  [logit s0] ep35/40 loss=0.7140 val mIoU=0.6384 best=0.6384@35 [907s]
+  [logit s0] ep40/40 loss=0.7020 val mIoU=0.6413 best=0.6418@39 [1037s]
+==> logit seed0: val=0.6418 test=0.6431 (ep 39)
+  [cent s0] ep1/40 loss=1.3767 val mIoU=0.4080 best=0.4080@1 [26s]
+  [cent s0] ep5/40 loss=0.6002 val mIoU=0.4679 best=0.4679@5 [129s]
+  [cent s0] ep10/40 loss=0.5063 val mIoU=0.5401 best=0.5401@10 [259s]
+  [cent s0] ep15/40 loss=0.4530 val mIoU=0.5560 best=0.5641@12 [388s]
+  [cent s0] ep20/40 loss=0.4072 val mIoU=0.5926 best=0.5929@17 [518s]
+  [cent s0] ep25/40 loss=0.3724 val mIoU=0.6220 best=0.6220@25 [647s]
+  [cent s0] ep30/40 loss=0.3350 val mIoU=0.6477 best=0.6477@30 [777s]
+  [cent s0] ep35/40 loss=0.3049 val mIoU=0.6554 best=0.6554@35 [906s]
+  [cent s0] ep40/40 loss=0.2985 val mIoU=0.6578 best=0.6578@40 [1036s]
+==> cent seed0: val=0.6578 test=0.6601 (ep 40)
+  [rel s0] ep1/40 loss=1.2892 val mIoU=0.4024 best=0.4024@1 [26s]
+  [rel s0] ep5/40 loss=0.5892 val mIoU=0.3732 best=0.4697@3 [130s]
+  [rel s0] ep10/40 loss=0.4949 val mIoU=0.5146 best=0.5183@8 [259s]
+  [rel s0] ep15/40 loss=0.4446 val mIoU=0.5621 best=0.5621@15 [389s]
+  [rel s0] ep20/40 loss=0.3959 val mIoU=0.6003 best=0.6003@20 [519s]
+  [rel s0] ep25/40 loss=0.3606 val mIoU=0.6159 best=0.6159@25 [649s]
+  [rel s0] ep30/40 loss=0.3240 val mIoU=0.6494 best=0.6494@30 [779s]
+  [rel s0] ep35/40 loss=0.2912 val mIoU=0.6530 best=0.6559@34 [909s]
+  [rel s0] ep40/40 loss=0.2869 val mIoU=0.6539 best=0.6559@34 [1039s]
+==> rel seed0: val=0.6559 test=0.6577 (ep 34)
+  [all s0] ep1/40 loss=6.9024 val mIoU=0.4030 best=0.4030@1 [26s]
+  [all s0] ep5/40 loss=1.4918 val mIoU=0.4360 best=0.4562@3 [131s]
+  [all s0] ep10/40 loss=1.2048 val mIoU=0.5326 best=0.5326@10 [261s]
+  [all s0] ep15/40 loss=1.0886 val mIoU=0.5608 best=0.5608@15 [392s]
+  [all s0] ep20/40 loss=0.9546 val mIoU=0.6071 best=0.6071@20 [522s]
+  [all s0] ep25/40 loss=0.8707 val mIoU=0.6212 best=0.6212@25 [653s]
+  [all s0] ep30/40 loss=0.7867 val mIoU=0.6385 best=0.6385@30 [783s]
+  [all s0] ep35/40 loss=0.7170 val mIoU=0.6440 best=0.6440@35 [914s]
+  [all s0] ep40/40 loss=0.7123 val mIoU=0.6460 best=0.6490@39 [1045s]
+==> all seed0: val=0.6490 test=0.6481 (ep 39)
+
+=== RESUME PointNet++ (alpha=0.5 beta=0.2 gamma=0.2 T=4.0, 40 ep, graines 0) ===
+base   val 0.6524±0.0000  test 0.6589±0.0000
+logit  val 0.6418±0.0000  test 0.6431±0.0000  Δval vs base par graine: -0.0105
+cent   val 0.6578±0.0000  test 0.6601±0.0000  Δval vs base par graine: +0.0054
+rel    val 0.6559±0.0000  test 0.6577±0.0000  Δval vs base par graine: +0.0035
+all    val 0.6490±0.0000  test 0.6481±0.0000  Δval vs base par graine: -0.0034
+References : PointNet (CE) test 0.602-0.608 | Teacher DGCNN test 0.7007.  Regle : retenir une variante seulement si Δval >= +0.005 sur toutes les graines.

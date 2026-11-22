@@ -1,0 +1,43 @@
+scans train/val/test: 1260 270 270 | device: cuda | aug: False | poids: none
+Teacher (logits pre-calcules) TEST OA=0.8750 mIoU=0.7007
+[sweep_T2_a0.7_s0] ep1/40 loss=3.2836 val OA=0.6225 mIoU=0.2725 best=0.2725@1 | 5s
+[sweep_T2_a0.7_s0] ep2/40 loss=1.2405 val OA=0.4706 mIoU=0.0585 best=0.2725@1 | 9s
+[sweep_T2_a0.7_s0] ep3/40 loss=0.9467 val OA=0.5290 mIoU=0.1236 best=0.2725@1 | 14s
+[sweep_T2_a0.7_s0] ep4/40 loss=0.8339 val OA=0.6173 mIoU=0.2587 best=0.2725@1 | 18s
+[sweep_T2_a0.7_s0] ep5/40 loss=0.7997 val OA=0.6439 mIoU=0.2906 best=0.2906@5 | 23s
+[sweep_T2_a0.7_s0] ep6/40 loss=0.7748 val OA=0.5375 mIoU=0.2477 best=0.2906@5 | 27s
+[sweep_T2_a0.7_s0] ep7/40 loss=0.7417 val OA=0.6586 mIoU=0.3686 best=0.3686@7 | 32s
+[sweep_T2_a0.7_s0] ep8/40 loss=0.7116 val OA=0.7661 mIoU=0.4976 best=0.4976@8 | 36s
+[sweep_T2_a0.7_s0] ep9/40 loss=0.6978 val OA=0.7574 mIoU=0.4672 best=0.4976@8 | 41s
+[sweep_T2_a0.7_s0] ep10/40 loss=0.6733 val OA=0.7273 mIoU=0.4208 best=0.4976@8 | 45s
+[sweep_T2_a0.7_s0] ep11/40 loss=0.6654 val OA=0.7675 mIoU=0.4880 best=0.4976@8 | 50s
+[sweep_T2_a0.7_s0] ep12/40 loss=0.6440 val OA=0.7276 mIoU=0.4388 best=0.4976@8 | 54s
+[sweep_T2_a0.7_s0] ep13/40 loss=0.6258 val OA=0.6569 mIoU=0.3114 best=0.4976@8 | 59s
+[sweep_T2_a0.7_s0] ep14/40 loss=0.6272 val OA=0.7646 mIoU=0.4543 best=0.4976@8 | 63s
+[sweep_T2_a0.7_s0] ep15/40 loss=0.6092 val OA=0.7149 mIoU=0.4165 best=0.4976@8 | 68s
+[sweep_T2_a0.7_s0] ep16/40 loss=0.5950 val OA=0.7349 mIoU=0.4610 best=0.4976@8 | 72s
+[sweep_T2_a0.7_s0] ep17/40 loss=0.5803 val OA=0.7700 mIoU=0.4966 best=0.4976@8 | 77s
+[sweep_T2_a0.7_s0] ep18/40 loss=0.5829 val OA=0.7625 mIoU=0.4775 best=0.4976@8 | 81s
+[sweep_T2_a0.7_s0] ep19/40 loss=0.5632 val OA=0.7271 mIoU=0.4118 best=0.4976@8 | 86s
+[sweep_T2_a0.7_s0] ep20/40 loss=0.5421 val OA=0.7759 mIoU=0.4974 best=0.4976@8 | 90s
+[sweep_T2_a0.7_s0] ep21/40 loss=0.5350 val OA=0.7801 mIoU=0.4977 best=0.4977@21 | 95s
+[sweep_T2_a0.7_s0] ep22/40 loss=0.5164 val OA=0.7090 mIoU=0.3772 best=0.4977@21 | 99s
+[sweep_T2_a0.7_s0] ep23/40 loss=0.5101 val OA=0.7478 mIoU=0.4590 best=0.4977@21 | 104s
+[sweep_T2_a0.7_s0] ep24/40 loss=0.4858 val OA=0.7935 mIoU=0.5438 best=0.5438@24 | 108s
+[sweep_T2_a0.7_s0] ep25/40 loss=0.4861 val OA=0.7356 mIoU=0.4455 best=0.5438@24 | 112s
+[sweep_T2_a0.7_s0] ep26/40 loss=0.4733 val OA=0.7803 mIoU=0.5222 best=0.5438@24 | 117s
+[sweep_T2_a0.7_s0] ep27/40 loss=0.4672 val OA=0.7428 mIoU=0.4694 best=0.5438@24 | 121s
+[sweep_T2_a0.7_s0] ep28/40 loss=0.4542 val OA=0.8019 mIoU=0.5540 best=0.5540@28 | 126s
+[sweep_T2_a0.7_s0] ep29/40 loss=0.4405 val OA=0.8109 mIoU=0.5563 best=0.5563@29 | 130s
+[sweep_T2_a0.7_s0] ep30/40 loss=0.4429 val OA=0.8137 mIoU=0.5583 best=0.5583@30 | 135s
+[sweep_T2_a0.7_s0] ep31/40 loss=0.4354 val OA=0.8176 mIoU=0.5792 best=0.5792@31 | 140s
+[sweep_T2_a0.7_s0] ep32/40 loss=0.4268 val OA=0.8096 mIoU=0.5461 best=0.5792@31 | 144s
+[sweep_T2_a0.7_s0] ep33/40 loss=0.4232 val OA=0.8043 mIoU=0.5607 best=0.5792@31 | 149s
+[sweep_T2_a0.7_s0] ep34/40 loss=0.4179 val OA=0.8279 mIoU=0.5982 best=0.5982@34 | 153s
+[sweep_T2_a0.7_s0] ep35/40 loss=0.4073 val OA=0.8261 mIoU=0.6015 best=0.6015@35 | 158s
+[sweep_T2_a0.7_s0] ep36/40 loss=0.4021 val OA=0.8259 mIoU=0.5976 best=0.6015@35 | 163s
+[sweep_T2_a0.7_s0] ep37/40 loss=0.3995 val OA=0.8264 mIoU=0.5934 best=0.6015@35 | 167s
+[sweep_T2_a0.7_s0] ep38/40 loss=0.4021 val OA=0.8296 mIoU=0.5975 best=0.6015@35 | 172s
+[sweep_T2_a0.7_s0] ep39/40 loss=0.3965 val OA=0.8304 mIoU=0.6008 best=0.6015@35 | 176s
+[sweep_T2_a0.7_s0] ep40/40 loss=0.3995 val OA=0.8296 mIoU=0.6034 best=0.6034@40 | 181s
+[sweep_T2_a0.7_s0] TEST (meilleure epoque par validation = 40): {'OA': 0.8223325610160828, 'mIoU': 0.5942961573600769} | derniere epoque: {'OA': 0.8223325610160828, 'mIoU': 0.5942961573600769}
